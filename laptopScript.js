@@ -8,8 +8,8 @@ const camera = new THREE.PerspectiveCamera(50, width / height, 0.1, 1000);
 camera.position.set(4, 2.5, 6);
 camera.lookAt(0, 1, 1);
 
-const backgroundLight = new THREE.RectAreaLight(0x0088ff, 500, 2, 2);
-backgroundLight.position.set(1, 0, -2);
+const backgroundLight = new THREE.RectAreaLight(0x0044ff, 250, 2, 2);
+backgroundLight.position.set(0, 0, -2);
 backgroundLight.lookAt(0, 0, -50);
 scene.add(backgroundLight);
 
