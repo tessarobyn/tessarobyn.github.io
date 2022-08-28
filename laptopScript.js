@@ -67,6 +67,18 @@ loader.load(
   }
 );
 
+loader.load(
+  "obj/Windows2.glb",
+  function (gltf) {
+    const obj = gltf.scene;
+    scene.add(obj);
+  },
+  undefined,
+  function (error) {
+    console.log(error);
+  }
+);
+
 function animate() {
   requestAnimationFrame(animate);
   renderer.render(scene, camera);
