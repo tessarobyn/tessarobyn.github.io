@@ -18,15 +18,26 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 10px 0px 10px 0px;
-  padding: 0;
+  padding: 10px 10px 10px 10px;
+  margin: 0;
   overflow: hidden;
+  color: #919191;
+  background-color: #141414;
 }
 
 li {
   float: right;
   margin: 0px 10px 0px 10px;
   font-size: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+li a:hover {
+  color: #ffffff;
 }
 
 .introContainer {
@@ -41,7 +52,15 @@ li {
   flex-direction: column;
   height: 100%;
   justify-content: center;
+}
+
+.titleContainer {
+  padding-left: 10%;
+}
+
+.laptopContainer {
   align-items: center;
+  margin-left: -10%;
 }
 
 h1 {
@@ -75,10 +94,49 @@ h3 {
 }
 
 svg {
+  left: 0;
   position: absolute;
 }
 
 .laptopSvg {
   top: 55%;
   left: 60%;
+}
+
+.languages,
+.games {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5%;
+}
+
+.languages {
+  margin-top: -25px;
+  width: 40%;
+}
+
+.games {
+  margin-top: 150px;
+}
+
+.languagesSvg,
+.gamesSvg {
+  margin-top: -150px;
+}
+
+.languages > h2,
+.games > h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.important {
+  font-size: 1.25rem;
+  color: #11c6f8;
+}
+
+.highlighted {
+  color: #0088ff;
 }
