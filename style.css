@@ -104,7 +104,8 @@ svg {
 }
 
 .languages,
-.games {
+.games,
+.websites {
   margin-left: 10%;
   margin-right: 10%;
   padding-bottom: 5%;
@@ -115,17 +116,20 @@ svg {
   width: 40%;
 }
 
-.games {
+.games,
+.websites {
   margin-top: 150px;
 }
 
 .languagesSvg,
-.gamesSvg {
+.gamesSvg,
+.websitesSvg {
   margin-top: -150px;
 }
 
 .languages > h2,
-.games > h2 {
+.games > h2,
+.websites > h2 {
   font-family: Roboto, sans-serif;
   font-size: 3rem;
   font-weight: 300;
@@ -139,4 +143,42 @@ svg {
 
 .highlighted {
   color: #0088ff;
+}
+
+.projectsGrid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.projectsGrid > div {
+  background-color: #1b1b1b;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #4b4a4a;
+  transition: background-color 1s;
+}
+
+.projectsGrid > div:hover {
+  background-color: #2e2e2e;
+}
+
+h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.75rem;
+  margin-top: 0.75rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0088ff;
+}
+
+p a:hover {
+  text-decoration: underline;
 }
