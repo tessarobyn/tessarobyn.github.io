@@ -5,23 +5,346 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-
-    <script src="https://unpkg.com/three@0.143.0/build/three.min.js"></script>
-    <script src="https://unpkg.com/three@0.143.0/examples/js/loaders/GLTFLoader.js"></script>
+    <title>Tessa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="titleContainer">
-      <h3>Hi, I'm</h3>
-      <h1>Tessa</h1>
-      <h3>Having fun</h3>
-      <h1>programming</h1>
-      <h3>(mostly)</h3>
+    <div class="navbar">
+      <ul>
+        <li>]</li>
+        <li><a href="#websitesSvg">websites</a></li>
+        <li>,</li>
+        <li><a href="#gamesSvg">games</a></li>
+        <li>,</li>
+        <li><a href="#languagesSvg">languages</a></li>
+        <li>[</li>
+      </ul>
     </div>
-    <div class="laptopContainer" id="laptopContainer"></div>
+    <svg width="300" height="150">
+      <g stroke-width="2" fill="none">
+        <g stroke="#961ffd">
+          <path d="M0 50 L200 50"></path>
+          <circle cx="210" cy="50" r="10"></circle>
+        </g>
+        <g stroke="#0088ff">
+          <path d="M0 75 L150 75"></path>
+          <circle cx="157.5" cy="75" r="7.5"></circle>
+        </g>
+        <g stroke="#11C6F8">
+          <path d="M0 100 L100 100"></path>
+          <circle cx="105" cy="100" r="5"></circle>
+        </g>
+      </g>
+    </svg>
+    <div class="introContainer">
+      <div class="titleContainer">
+        <div>
+          <h3>Hi, I'm</h3>
+          <h1 class="title1">Tessa</h1>
+          <h3>I mess about</h3>
+          <h1 class="title2">programming</h1>
+        </div>
+      </div>
+      <div class="laptopContainer">
+        <div>
+          <img class="laptopImg" src="img/laptop.png" />
+          <svg class="laptopSvg" width="300" height="600">
+            <g stroke-width="2" fill="none">
+              <g stroke="#961ffd">
+                <path d="M20 90 L20 200"></path>
+                <circle cx="20" cy="205" r="5"></circle>
+              </g>
+              <g stroke="#0088ff">
+                <path d="M40 90 L40 375"></path>
+                <circle cx="40" cy="382.5" r="7.5"></circle>
+              </g>
+              <g stroke="#961ffd">
+                <path d="M60 90 L60 300"></path>
+                <circle cx="60" cy="307.5" r="7.5"></circle>
+              </g>
+              <g stroke="#11C6F8">
+                <path d="M80 90 L80 250"></path>
+                <circle cx="80" cy="255" r="5"></circle>
+              </g>
+              <g stroke="#0088ff">
+                <path d="M100 90 L100 400"></path>
+                <circle cx="100" cy="410" r="10"></circle>
+              </g>
+              <g stroke="#961ffd">
+                <path d="M120 90 L120 475"></path>
+                <circle cx="120" cy="482.5" r="7.5"></circle>
+              </g>
+              <g stroke="#0088ff">
+                <path d="M140 90 L140 275"></path>
+                <circle cx="140" cy="282.5" r="7.5"></circle>
+              </g>
+              <g stroke="#11C6F8">
+                <path d="M160 90 L160 350"></path>
+                <circle cx="160" cy="355" r="5"></circle>
+              </g>
+              <g stroke="#0088ff">
+                <path d="M180 90 L180 525"></path>
+                <circle cx="180" cy="535" r="10"></circle>
+              </g>
+              <g stroke="#961ffd">
+                <path d="M200 90 L200 550"></path>
+                <circle cx="200" cy="557.5" r="7.5"></circle>
+              </g>
+              <g stroke="#11C6F8">
+                <path d="M220 90 L220 400"></path>
+                <circle cx="220" cy="405" r="5"></circle>
+              </g>
+              <g stroke="#0088ff">
+                <path d="M240 90 L240 500"></path>
+                <circle cx="240" cy="507.5" r="7.5"></circle>
+              </g>
+              <g stroke="#11C6F8">
+                <path d="M260 90 L260 325"></path>
+                <circle cx="260" cy="335" r="10"></circle>
+              </g>
+              <g stroke="#961ffd">
+                <path d="M280 90 L280 200"></path>
+                <circle cx="280" cy="207.5" r="7.5"></circle>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="languages" id="languages">
+      <svg class="languagesSvg" id="languagesSvg" width="600" height="150">
+        <g stroke-width="2" fill="none">
+          <g stroke="#11C6F8">
+            <path d="M0 50 L200 50"></path>
+            <circle cx="205" cy="50" r="5"></circle>
+          </g>
+          <g stroke="#0088ff">
+            <path d="M0 75 L325 75"></path>
+            <circle cx="332.5" cy="75" r="7.5"></circle>
+          </g>
+          <g stroke="#961ffd">
+            <path d="M0 100 L550 100"></path>
+            <circle cx="560" cy="100" r="10"></circle>
+          </g>
+        </g>
+      </svg>
+      <h2>Languages</h2>
+      <p class="important">[ Python, HTML, CSS, JavaScript, C# with Unity ]</p>
+      <p>
+        My first programming language was <b class="highlighted">Python</b>,
+        which I used to program my first game. However, recently I have been
+        experimenting with other languages and technologies, especially those
+        that give me more freedom over the graphics of the program/app. This
+        includes using <b class="highlighted">HTML</b>,
+        <b class="highlighted">CSS</b> and
+        <b class="highlighted">JavaScript</b> to build frontend websites and
+        web-based games. I have also started learning
+        <b class="highlighted">C#</b> and Unity for games development.
+      </p>
+    </div>
+    <div class="games" id="games">
+      <svg class="gamesSvg" id="gamesSvg" width="600" height="150">
+        <g stroke-width="2" fill="none">
+          <g stroke="#11C6F8">
+            <path d="M0 50 L200 50"></path>
+            <circle cx="205" cy="50" r="5"></circle>
+          </g>
+          <g stroke="#0088ff">
+            <path d="M0 75 L325 75"></path>
+            <circle cx="332.5" cy="75" r="7.5"></circle>
+          </g>
+          <g stroke="#961ffd">
+            <path d="M0 100 L550 100"></path>
+            <circle cx="560" cy="100" r="10"></circle>
+          </g>
+        </g>
+      </svg>
+      <h2>Games</h2>
+      <p>
+        I was drawn to games development because I enjoy art and programming and
+        I can use both these skills when creating games. I have prorammed games
+        in Python, in HTML, CSS and JavaScript and in C# with Unity.
+      </p>
+      <div class="projectsGrid">
+        <div>
+          <h4>Last Left</h4>
+          <p class="important">[ HTML, CSS, JavaScript ]</p>
+          <p>
+            'Last Left' is a web-based game. It is an improved remake of the
+            first game I built in Python.
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/last-left-game/"
+              >play game online</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/last-left-game"
+              >view repo on GitHub</a
+            >
+          </p>
+        </div>
+        <div>
+          <h4>Lift Off</h4>
+          <p class="important">[ C#, Unity ]</p>
+          <p>
+            'Lift Off' is a web-based game, currently designed for any device
+            with a keyboard. It is one of the first games I made in Unity.
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/lift-off/"
+              >play game online</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/lift-off"
+              >view repo on GitHub</a
+            >
+          </p>
+        </div>
+        <div>
+          <h4>Ice Cream Catch</h4>
+          <p class="important">[ HTML, CSS, JavaScript, HTML5 Canvas ]</p>
+          <p>
+            'Ice Cream Catch' is a simple web-based game, which can be used on
+            devices with or without a touchscreen. It allowed me to experiment
+            with HTML5 canvas.
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/ice-cream-catch/"
+              >play game online</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/ice-cream-catch"
+              >view repo on GitHub</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="websites" id="websites">
+      <svg class="websitesSvg" id="websitesSvg" width="600" height="150">
+        <g stroke-width="2" fill="none">
+          <g stroke="#11C6F8">
+            <path d="M0 50 L200 50"></path>
+            <circle cx="205" cy="50" r="5"></circle>
+          </g>
+          <g stroke="#0088ff">
+            <path d="M0 75 L325 75"></path>
+            <circle cx="332.5" cy="75" r="7.5"></circle>
+          </g>
+          <g stroke="#961ffd">
+            <path d="M0 100 L550 100"></path>
+            <circle cx="560" cy="100" r="10"></circle>
+          </g>
+        </g>
+      </svg>
+      <h2>Websites</h2>
+      <p>
+        All of the websites I have built are currently frontend websites. I have
+        built a range of web apps, including a couple of games.
+      </p>
+      <div class="projectsGrid">
+        <div>
+          <h4>Color Picker</h4>
+          <p class="important">[ HTML, CSS, JavaScript, HTML5 Canvas ]</p>
+          <p>
+            This is a widget written in JavaScript that can be added to a
+            website easily and can be customised.
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/color-picker/"
+              >view website</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/color-picker"
+              >view repo on GitHub</a
+            >
+          </p>
+        </div>
+        <div>
+          <h4>Art Portfolio</h4>
+          <p class="important">[ HTML, CSS, JavaScript ]</p>
+          <p>
+            I built this website so I would be able to add my artwork to it and
+            use category pages to organise different pieces of art.
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/art-portfolio"
+              >view repo on GitHub</a
+            >
+          </p>
+        </div>
+        <div>
+          <h4>Idea Pool</h4>
+          <p class="important">[ HTML, CSS, JavaScript ]</p>
+          <p>
+            This website allows the user to quickly add ideas to it in the form
+            of notes or sticky notes. They can also have multiple tabs open to
+            further organise their ideas.
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/idea-pool/">view website</a>
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/idea-pool"
+              >view repo on GitHub</a
+            >
+          </p>
+        </div>
+        <div>
+          <h4>Last Left</h4>
+          <p class="important">[ HTML, CSS, JavaScript ]</p>
+          <p>
+            'Last Left' is a web-based game. It is an improved remake of the
+            first game I built in Python.
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/last-left-game/"
+              >view website</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/last-left-game"
+              >view repo on GitHub</a
+            >
+          </p>
+        </div>
+        <div>
+          <h4>Ice Cream Catch</h4>
+          <p class="important">[ HTML, CSS, JavaScript, HTML5 Canvas ]</p>
+          <p>
+            'Ice Cream Catch' is a simple web-based game, which can be used on
+            devices with or without a touchscreen. It allowed me to experiment
+            with HTML5 canvas.
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/ice-cream-catch/"
+              >view website</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/ice-cream-catch"
+              >view repo on GitHub</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
   <footer>
-    <script src="setCanvasSize.js"></script>
-    <script type="module" src="laptopScript.js"></script>
+    <p>GitHub: tessarobyn</p>
+    <p>
+      <a href="https://github.com/tessarobyn/tessarobyn.github.io"
+        >view website repo on GitHub</a
+      >
+    </p>
   </footer>
 </html>

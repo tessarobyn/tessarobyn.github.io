@@ -4,14 +4,186 @@ body {
   height: 100%;
   margin: 0;
   font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #141414;
+  color: #cccccc;
 }
 
-.titleContainer {
-  position: absolute;
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px 10px 10px 10px;
+  margin: 0;
+  overflow: hidden;
+  color: #919191;
+  background-color: #141414;
+}
+
+li {
+  float: right;
+  margin: 0px 10px 0px 10px;
+  font-size: 1rem;
+}
+
+li a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+li a:hover {
+  color: #ffffff;
+}
+
+.introContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.introContainer > div {
+  flex: 1;
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 50%;
   justify-content: center;
-  left: 10%;
+}
+
+.titleContainer {
+  padding-left: 10%;
+}
+
+.laptopContainer {
+  align-items: center;
+  margin-left: -10%;
+}
+
+h1 {
+  font-family: roboto, sans-serif;
+  font-size: 4rem;
+  margin: 1%;
+}
+
+.title1 {
+  color: #961ffd;
+  font-weight: 300;
+  margin-bottom: 4%;
+}
+
+.title2 {
+  color: #0088ff;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1%;
+  color: #4b4a4a;
+}
+
+.laptopImg {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+svg {
+  left: 0;
+  position: absolute;
+}
+
+.laptopSvg {
+  top: 55%;
+  left: 60%;
+}
+
+.languages,
+.games,
+.websites {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5%;
+}
+
+.languages {
+  margin-top: -25px;
+  width: 40%;
+}
+
+.games,
+.websites {
+  margin-top: 150px;
+}
+
+.languagesSvg,
+.gamesSvg,
+.websitesSvg {
+  margin-top: -150px;
+}
+
+.languages > h2,
+.games > h2,
+.websites > h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.important {
+  font-size: 1.25rem;
+  color: #11c6f8;
+}
+
+.highlighted {
+  color: #0088ff;
+}
+
+.projectsGrid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.projectsGrid > div {
+  background-color: #1b1b1b;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #4b4a4a;
+  transition: background-color 1s;
+}
+
+.projectsGrid > div:hover {
+  background-color: #2e2e2e;
+}
+
+h4 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.75rem;
+  margin-top: 0.75rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0088ff;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
 }
