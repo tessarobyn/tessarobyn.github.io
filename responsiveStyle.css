@@ -1,0 +1,80 @@
+@media screen and (min-width: 1660px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+  .laptopSvg {
+    top: 62.5%;
+    left: 65%;
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+  }
+}
+
+@media screen and (max-width: 1285px) {
+  .laptopSvg {
+    top: 45%;
+    left: 57%;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+  .languages {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .laptopSvg {
+    top: 40%;
+    left: 55%;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+  }
+
+  .projectsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .laptopImg {
+    display: none;
+  }
+  .laptopSvg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .projectsGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
