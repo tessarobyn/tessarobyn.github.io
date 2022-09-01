@@ -62,7 +62,7 @@
 }
 
 @media screen and (max-width: 625px) {
-  body {
+  .content {
     overflow-x: hidden;
   }
 }
