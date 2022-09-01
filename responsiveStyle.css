@@ -78,3 +78,21 @@
     font-size: 3.5rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+
+  li {
+    font-size: 0.75rem;
+  }
+}
