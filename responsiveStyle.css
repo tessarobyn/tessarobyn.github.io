@@ -24,9 +24,6 @@
     -ms-transform: scale(0.8);
     -o-transform: scale(0.8);
   }
-  .languages {
-    width: 80%;
-  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -58,6 +55,9 @@
   }
   .laptopSvg {
     display: none;
+  }
+  .languages {
+    width: 80%;
   }
 }
 
