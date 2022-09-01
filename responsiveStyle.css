@@ -24,9 +24,6 @@
     -ms-transform: scale(0.8);
     -o-transform: scale(0.8);
   }
-  .languages {
-    width: 80%;
-  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -59,10 +56,13 @@
   .laptopSvg {
     display: none;
   }
+  .languages {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 625px) {
-  body {
+  .content {
     overflow-x: hidden;
   }
 }
@@ -76,5 +76,23 @@
 @media screen and (max-width: 450px) {
   h1 {
     font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+
+  li {
+    font-size: 0.75rem;
   }
 }
