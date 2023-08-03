@@ -70,12 +70,12 @@ li a:hover {
 
 h1 {
   font-family: roboto, sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   margin: 1%;
 }
 
 .title1 {
-  color: #961ffd;
+  color: #0088ff;
   font-weight: 300;
   margin-bottom: 4%;
 }
@@ -89,7 +89,7 @@ h3 {
   font-size: 2rem;
   font-weight: 400;
   margin: 1%;
-  color: #4b4a4a;
+  color: #7a7a7a;
 }
 
 .laptopImg {
