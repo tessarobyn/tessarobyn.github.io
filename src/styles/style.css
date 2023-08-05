@@ -159,15 +159,15 @@ svg {
 }
 
 .projectsGrid > div {
-  background-color: #1b1b1b;
+  background-color: #17171a;
   padding: 20px;
   border-radius: 20px;
-  border: 2px solid #4b4a4a;
+  border: 2px solid #3f3f49;
   transition: background-color 1s;
 }
 
 .projectsGrid > div:hover {
-  background-color: #212121;
+  background-color: #242429;
 }
 
 h4 {
@@ -220,7 +220,12 @@ button:hover {
   width: 100%;
   margin: 5rem;
   height: 1000px;
-  background-color: #0088ff;
+  padding: 20px;
+  background-color: #17171a;
+  border: 2px solid #3f3f49;
+  border-radius: 20px;
+  position: relative;
+  z-index: 3;
 }
 
 .modalContainer {
@@ -229,12 +234,21 @@ button:hover {
   width: 100%;
   min-height: 100%;
   height: max-content;
-  backdrop-filter: blur(5px);
+  background-color: #141414;
+  display: none;
+}
+
+.modalBg {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  background-color: #141414;
   display: none;
 }
 .show {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .footer {

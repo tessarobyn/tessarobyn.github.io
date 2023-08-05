@@ -7,26 +7,30 @@ const ProjectCard = ({
   description,
   desktopOnly = false,
 }) => {
-  const closeModal = (modalContainer, content) => {
+  const closeModal = (modalContainer, content, scrollY) => {
     modalContainer.classList.remove("show");
     content.style.position = "static";
+    window.scrollTo(0, scrollY);
   };
   const openModal = (id) => {
-    const modalContainer = document.getElementById(id);
-    modalContainer.classList.add("show");
-    modalContainer.scrollIntoView();
+    const scrollY = window.scrollY;
     const content = document.getElementById("content");
     content.style.position = "fixed";
-    modalContainer.addEventListener("click", () => {
-      closeModal(modalContainer, content);
+    const modalContainer = document.getElementById(id);
+    modalContainer.classList.add("show");
+    const modalBg = document.getElementById("modalBg");
+    modalBg.classList.add("show");
+    window.scrollTo(0, 0);
+    modalBg.addEventListener("click", () => {
+      closeModal(modalContainer, content, scrollY);
     });
     const navbar = document.getElementById("navbar");
     navbar.addEventListener("click", () => {
-      closeModal(modalContainer, content);
+      closeModal(modalContainer, content, scrollY);
     });
   };
   return (
-    <div>
+    <div onClick={() => openModal(id)}>
       <h4>{title}</h4>
       <p className="languageList">[ {languages} ]</p>
       <p>{description}</p>
