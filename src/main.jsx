@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Grid from "./components/Grid.jsx";
+import Modals from "./components/Modals.jsx";
 
 const projects = {
   colorPicker: {
+    id: "colorPicker",
     title: "Color Picker",
     languages: "HTML, CSS, JavaScript, HTML5 Canvas",
     description:
@@ -11,6 +13,7 @@ const projects = {
     desktopOnly: true,
   },
   artPortfolio: {
+    id: "artPortfolio",
     title: "Art Portfolio",
     languages: "HTML, CSS, JavaScript",
     description:
@@ -18,18 +21,21 @@ const projects = {
   },
 
   lastLeft: {
+    id: "lastLeft",
     title: "Last Left",
     languages: "HTML, CSS, JavaScript",
     description:
       "'Last Left' is a web-based game. It is an improved remake of the first game I built in Python.",
   },
   iceCreamCatch: {
+    id: "iceCreamCatch",
     title: "Ice Cream Catch",
     languages: "HTML, CSS, JavaScript, HTML5 Canvas",
     description:
       "'Ice Cream Catch' is a simple web-based game, which can be used on devices with or without a touchscreen. It allowed me to experiment with HTML5 canvas.",
   },
   liftOff: {
+    id: "liftOff",
     title: "Lift Off",
     languages: "C#, Unity",
     description:
@@ -37,6 +43,10 @@ const projects = {
     desktopOnly: true,
   },
 };
+
+ReactDOM.createRoot(document.getElementById("modals")).render(
+  <Modals projects={projects}></Modals>
+);
 
 ReactDOM.createRoot(document.getElementById("gameGridContainer")).render(
   <Grid cards={[projects.lastLeft, projects.liftOff, projects.iceCreamCatch]} />
