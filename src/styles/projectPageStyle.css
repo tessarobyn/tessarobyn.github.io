@@ -1,7 +1,26 @@
 .projectPage {
-  padding: 10%;
+  padding: 5% 10%;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 h1 {
   margin: 2rem 0;
+}
+
+.projectContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.projectContent > div {
+  flex: 1;
+}
+
+.imageContainer {
+  position: relative;
+}
+img {
+  width: 100%;
 }

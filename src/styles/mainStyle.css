@@ -6,7 +6,7 @@ body,
   margin: 0;
   font-size: 16px;
   font-family: "Courier New", Courier, monospace;
-  background-color: #141414;
+  background-color: #131314;
   color: #cccccc;
 }
 
@@ -27,7 +27,7 @@ ul {
   margin: 0;
   overflow: hidden;
   color: #919191;
-  background-color: #141414;
+  background-color: #131314;
 }
 
 li {
@@ -76,13 +76,7 @@ h1 {
 
 .title1 {
   color: #0088ff;
-  font-weight: 300;
   margin-bottom: 4%;
-}
-
-.title2 {
-  color: #0088ff;
-  font-weight: 500;
 }
 
 h3 {
@@ -137,8 +131,7 @@ svg {
 .websites > h2 {
   font-family: Roboto, sans-serif;
   font-size: 3rem;
-  font-weight: 300;
-  color: #ffffff;
+  color: #cccccc;
 }
 
 .languageList {

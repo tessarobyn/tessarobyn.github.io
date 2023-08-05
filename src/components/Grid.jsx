@@ -10,7 +10,7 @@ const Grid = ({ cards }) => {
             title={card.title}
             languages={card.languages}
             description={card.description}
-            desktopOnly={card.desktopOnly}
+            optimisedForMobile={card.optimisedForMobile}
             key={i}
           />
         );

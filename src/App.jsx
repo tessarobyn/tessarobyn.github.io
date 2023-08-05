@@ -9,7 +9,7 @@ const projects = {
     languages: "HTML, CSS, JavaScript, HTML5 Canvas",
     description:
       "This is a widget written in JavaScript that can be added to a website easily.",
-    desktopOnly: true,
+    optimisedForMobile: false,
   },
   artPortfolio: {
     id: "artPortfolio",
@@ -17,7 +17,7 @@ const projects = {
     languages: "HTML, CSS, JavaScript",
     description:
       "I built this website so I would be able to add my artwork to it and use category pages to organise different pieces of art.",
-    desktopOnly: false,
+    optimisedForMobile: true,
   },
 
   lastLeft: {
@@ -26,7 +26,7 @@ const projects = {
     languages: "HTML, CSS, JavaScript",
     description:
       "'Last Left' is a web-based game. It is an improved remake of the first game I built in Python.",
-    desktopOnly: false,
+    optimisedForMobile: true,
   },
   iceCreamCatch: {
     id: "iceCreamCatch",
@@ -34,7 +34,7 @@ const projects = {
     languages: "HTML, CSS, JavaScript, HTML5 Canvas",
     description:
       "'Ice Cream Catch' is a simple web-based game, which can be used on devices with or without a touchscreen. It allowed me to experiment with HTML5 canvas.",
-    desktopOnly: false,
+    optimisedForMobile: true,
   },
   liftOff: {
     id: "liftOff",
@@ -42,7 +42,7 @@ const projects = {
     languages: "C#, Unity",
     description:
       "'Lift Off' is a web-based game, currently designed for any device with a keyboard. It is one of the first games I made in Unity.",
-    desktopOnly: true,
+    optimisedForMobile: false,
   },
 };
 
