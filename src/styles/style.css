@@ -167,7 +167,7 @@ svg {
 }
 
 .projectsGrid > div:hover {
-  background-color: #2e2e2e;
+  background-color: #212121;
 }
 
 h4 {
@@ -178,6 +178,16 @@ h4 {
   color: #ffffff;
 }
 
+.deviceTag {
+  margin: 0 0.4rem 0 0;
+  display: inline-block;
+  background-color: #0088ff44;
+  color: #d6e3ee;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3rem;
+}
+
 p a {
   text-decoration: none;
   font-weight: bold;
@@ -185,6 +195,24 @@ p a {
 }
 
 p a:hover {
+  text-decoration: underline;
+}
+
+button {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ffffff00;
+  color: #cccccc;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0088ff;
+  border-style: none;
+  padding: 0.75rem 0;
+}
+
+button:hover {
   text-decoration: underline;
 }
 
