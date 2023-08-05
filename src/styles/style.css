@@ -158,16 +158,16 @@ svg {
   row-gap: 30px;
 }
 
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .projectsGrid > div {
   background-color: #17171a;
   padding: 20px;
   border-radius: 20px;
   border: 2px solid #3f3f49;
-  transition: background-color 1s;
-}
-
-.projectsGrid > div:hover {
-  background-color: #242429;
 }
 
 h4 {
@@ -201,7 +201,7 @@ p a:hover {
 button {
   display: block;
   font-family: "Courier New", Courier, monospace;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
   background-color: #ffffff00;
   color: #cccccc;
@@ -214,41 +214,6 @@ button {
 
 button:hover {
   text-decoration: underline;
-}
-
-.modal {
-  width: 100%;
-  margin: 5rem;
-  height: 1000px;
-  padding: 20px;
-  background-color: #17171a;
-  border: 2px solid #3f3f49;
-  border-radius: 20px;
-  position: relative;
-  z-index: 3;
-}
-
-.modalContainer {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  min-height: 100%;
-  height: max-content;
-  background-color: #141414;
-  display: none;
-}
-
-.modalBg {
-  position: fixed;
-  width: 100%;
-  min-height: 100%;
-  background-color: #141414;
-  display: none;
-}
-.show {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer {

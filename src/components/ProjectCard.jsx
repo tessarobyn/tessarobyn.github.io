@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ProjectCard = ({
   id,
   title,
@@ -12,7 +14,9 @@ const ProjectCard = ({
       <p>{description}</p>
       <p className="deviceTag">Desktop</p>
       {desktopOnly ? <></> : <p className="deviceTag">Mobile</p>}
-      <button onClick={() => openModal(id)}>See more info</button>
+      <Link to={"/" + id} className="link">
+        <button>See more info</button>
+      </Link>
     </div>
   );
 };

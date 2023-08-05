@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home.jsx";
+import ProjectPage from "./components/ProjectPage.jsx";
 
 const projects = {
   colorPicker: {
@@ -43,10 +44,21 @@ const projects = {
 };
 
 const App = () => {
+  const projectRoutes = [];
+  Object.keys(projects).forEach((projectKey, i) => {
+    projectRoutes.push(
+      <Route
+        key={i}
+        path={"/" + projects[projectKey].id}
+        element={<ProjectPage project={projects[projectKey]} />}
+      />
+    );
+  });
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home projects={projects} />}></Route>
+        <>{projectRoutes}</>
       </Routes>
     </Router>
   );
