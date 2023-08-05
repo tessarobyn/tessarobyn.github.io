@@ -17,6 +17,7 @@ const projects = {
     languages: "HTML, CSS, JavaScript",
     description:
       "I built this website so I would be able to add my artwork to it and use category pages to organise different pieces of art.",
+    desktopOnly: false,
   },
 
   lastLeft: {
@@ -25,6 +26,7 @@ const projects = {
     languages: "HTML, CSS, JavaScript",
     description:
       "'Last Left' is a web-based game. It is an improved remake of the first game I built in Python.",
+    desktopOnly: false,
   },
   iceCreamCatch: {
     id: "iceCreamCatch",
@@ -32,6 +34,7 @@ const projects = {
     languages: "HTML, CSS, JavaScript, HTML5 Canvas",
     description:
       "'Ice Cream Catch' is a simple web-based game, which can be used on devices with or without a touchscreen. It allowed me to experiment with HTML5 canvas.",
+    desktopOnly: false,
   },
   liftOff: {
     id: "liftOff",

@@ -1,12 +1,6 @@
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({
-  id,
-  title,
-  languages,
-  description,
-  desktopOnly = false,
-}) => {
+const ProjectCard = ({ id, title, languages, description, desktopOnly }) => {
   return (
     <div>
       <h4>{title}</h4>

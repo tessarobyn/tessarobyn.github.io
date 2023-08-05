@@ -102,9 +102,8 @@ const Home = ({ projects }) => {
           languages and technologies, especially those that give me more freedom
           over the graphics of the program/app. This includes using{" "}
           <b className="highlighted">HTML</b>,<b className="highlighted">CSS</b>{" "}
-          and
-          <b className="highlighted">JavaScript</b> to build frontend websites
-          and web-based games. I also had a go at{" "}
+          and <b className="highlighted">JavaScript</b> to build frontend
+          websites and web-based games. I also had a go at{" "}
           <b className="highlighted">C#</b> and Unity for games development.
           <br />
           <br />
