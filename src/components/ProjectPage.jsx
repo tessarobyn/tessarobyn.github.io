@@ -37,12 +37,12 @@ const ProjectPage = ({ project }) => {
         </div>
       </div>
 
-      <div>
+      <div className="extraInfo">
         <h2>Aim</h2>
         <p>{project.aim}</p>
         <h2>Successes</h2>
         <p>{project.successes}</p>
-        <h2>What Could Be Improved</h2>
+        <h2>What Improvements Could I Make?</h2>
         <p>{project.possibleImprovements}</p>
       </div>
       <Footer />

@@ -22,6 +22,10 @@ h2 {
   gap: 2rem;
 }
 
+.extraInfo {
+  margin-bottom: 3rem;
+}
+
 .projectContent > div {
   flex: 1;
 }

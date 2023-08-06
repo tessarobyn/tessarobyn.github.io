@@ -135,7 +135,7 @@ const Home = ({ projects }) => {
         <Grid
           cards={[
             projects.colorPicker,
-            projects.artPortfolio,
+            // projects.artPortfolio,
             projects.lastLeft,
             projects.iceCreamCatch,
           ]}
