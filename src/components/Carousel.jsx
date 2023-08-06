@@ -4,13 +4,6 @@ import { motion, AnimatePresence } from "framer-motion";
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  //   useEffect(() => {
-  //     const interval = setInterval(() => {
-  //       moveToNext();
-  //     }, 2000);
-  //     return () => clearInterval(interval);
-  //   }, []);
-
   const moveToNext = () => {
     setCurrentIndex((i) => {
       return i + 1 == images.length ? 0 : i + 1;
