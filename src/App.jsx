@@ -13,9 +13,9 @@ const projects = {
     github: "https://github.com/tessarobyn/color-picker",
     website: "https://tessarobyn.github.io/color-picker/",
     images: [],
-    whatLearnt: [],
-    successes: [],
-    possibleImprovements: [],
+    aim: "",
+    successes: "",
+    possibleImprovements: "",
   },
   artPortfolio: {
     id: "artPortfolio",
@@ -27,9 +27,9 @@ const projects = {
     github: "https://github.com/tessarobyn/art-portfolio",
     website: "https://tessarobyn.github.io/art-portfolio/",
     images: [],
-    whatLearnt: [],
-    successes: [],
-    possibleImprovements: [],
+    aim: "",
+    successes: "",
+    possibleImprovements: "",
   },
 
   lastLeft: {
@@ -47,9 +47,11 @@ const projects = {
       "lastLeftGameplay.png",
       "lastLeftGameOver.png",
     ],
-    whatLearnt: [],
-    successes: [],
-    possibleImprovements: [],
+    aim: "'Last Left' was the first website I built that used a substantial amount of JavaScript to control it. I decided to build this game specifically as I had already worked out the game logic and finer details when I built it in Python, meaning I could focus on learning how JavaScript works and how to apply it to a relatively simple game. Also, I found that implementing a game made it easier to learn how to use classes and objects in JavaScript, as there were classes such as 'Player' and 'Enemy'. The objects created from these were tangible and represented on the screen.",
+    successes:
+      "As this was my first attempt with JavaScript, I was very happy with the outcome. I felt a lot more confident using JavaScript and could appreciate how much of a difference it makes to websites. One of the most difficult parts of building this game was to create an algorithm that would randomly generate walls for each game, but I think it turned out well.",
+    possibleImprovements:
+      "As this game requires access to a keyboard, it cannot be played on a touchscreen device without an external keyboard. When I styled the game, I made sure it was responsive to all screen sizes, but I would need to add touchscreen support so it can be used on all devices.",
   },
   iceCreamCatch: {
     id: "iceCreamCatch",
@@ -61,9 +63,9 @@ const projects = {
     github: "https://github.com/tessarobyn/ice-cream-catch",
     website: "https://tessarobyn.github.io/ice-cream-catch/",
     images: [],
-    whatLearnt: [],
-    successes: [],
-    possibleImprovements: [],
+    aim: "",
+    successes: "",
+    possibleImprovements: "",
   },
   liftOff: {
     id: "liftOff",
@@ -75,9 +77,9 @@ const projects = {
     github: "https://github.com/tessarobyn/lift-off",
     website: "https://tessarobyn.github.io/lift-off/",
     images: [],
-    whatLearnt: [],
-    successes: [],
-    possibleImprovements: [],
+    aim: "",
+    successes: "",
+    possibleImprovements: "",
   },
 };
 

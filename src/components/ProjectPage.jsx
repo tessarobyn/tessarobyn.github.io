@@ -1,8 +1,12 @@
+import { useLayoutEffect } from "react";
 import "../styles/projectPageStyle.css";
 import Carousel from "./Carousel";
 import Footer from "./Footer";
 
 const ProjectPage = ({ project }) => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="projectPage">
       <div className="projectPageHead">
@@ -34,7 +38,12 @@ const ProjectPage = ({ project }) => {
       </div>
 
       <div>
-        <p>{project.description}</p>
+        <h2>Aim</h2>
+        <p>{project.aim}</p>
+        <h2>Successes</h2>
+        <p>{project.successes}</p>
+        <h2>What Could Be Improved</h2>
+        <p>{project.possibleImprovements}</p>
       </div>
       <Footer />
     </div>
