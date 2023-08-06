@@ -1,6 +1,6 @@
 import Footer from "./Footer.jsx";
 import Grid from "./Grid.jsx";
-import SvgDivider from "./svgDivider.jsx";
+import SvgDivider from "./SvgDivider.jsx";
 import laptopUrl from "../img/laptop.png";
 
 const Home = ({ projects }) => {
