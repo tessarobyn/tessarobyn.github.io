@@ -10,6 +10,7 @@ const projects = {
     description:
       "This is a widget written in JavaScript that can be added to a website easily.",
     optimisedForMobile: false,
+    images: [],
   },
   artPortfolio: {
     id: "artPortfolio",
@@ -18,6 +19,7 @@ const projects = {
     description:
       "I built this website so I would be able to add my artwork to it and use category pages to organise different pieces of art.",
     optimisedForMobile: true,
+    images: [],
   },
 
   lastLeft: {
@@ -27,6 +29,7 @@ const projects = {
     description:
       "'Last Left' is a web-based game. It is an improved remake of the first game I built in Python.",
     optimisedForMobile: true,
+    images: ["lastLeft1.png", "lastLeft2.png"],
   },
   iceCreamCatch: {
     id: "iceCreamCatch",
@@ -35,6 +38,7 @@ const projects = {
     description:
       "'Ice Cream Catch' is a simple web-based game, which can be used on devices with or without a touchscreen. It allowed me to experiment with HTML5 canvas.",
     optimisedForMobile: true,
+    images: [],
   },
   liftOff: {
     id: "liftOff",
@@ -43,6 +47,7 @@ const projects = {
     description:
       "'Lift Off' is a web-based game, currently designed for any device with a keyboard. It is one of the first games I made in Unity.",
     optimisedForMobile: false,
+    images: [],
   },
 };
 

@@ -18,7 +18,7 @@ h1 {
   flex: 1;
 }
 
-.imageContainer {
+.imageCarousel {
   position: relative;
 }
 img {
