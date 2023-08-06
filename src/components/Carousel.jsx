@@ -1,8 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  //   useEffect(() => {
+  //     const interval = setInterval(() => {
+  //       moveToNext();
+  //     }, 2000);
+  //     return () => clearInterval(interval);
+  //   }, []);
 
   const moveToNext = () => {
     setCurrentIndex((i) => {
@@ -21,7 +28,7 @@ const Carousel = ({ images }) => {
         src={`./src/img/projectImages/${images[currentIndex]}`}
         onClick={moveToNext}
       />
-      <div className="dots">
+      <div className="dotsContainer">
         {images.map((image, i) => {
           return (
             <div
