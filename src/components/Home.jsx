@@ -1,6 +1,7 @@
 import Footer from "./Footer.jsx";
 import Grid from "./Grid.jsx";
 import SvgDivider from "./svgDivider.jsx";
+import laptopUrl from "../img/laptop.png";
 
 const Home = ({ projects }) => {
   return (
@@ -30,7 +31,7 @@ const Home = ({ projects }) => {
         </div>
         <div className="laptopContainer">
           <div>
-            <img className="laptopImg" src="./src/img/laptop.png" />
+            <img className="laptopImg" src={laptopUrl} />
             <svg className="laptopSvg" width="300" height="600">
               <g strokeWidth="2" fill="none">
                 <g id="1" stroke="#961ffd">
