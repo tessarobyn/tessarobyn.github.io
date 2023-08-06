@@ -6,7 +6,7 @@ body,
   margin: 0;
   font-size: 16px;
   font-family: "Courier New", Courier, monospace;
-  background-color: #141414;
+  background-color: #131314;
   color: #cccccc;
 }
 
@@ -17,7 +17,7 @@ body,
 .navbar {
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
 }
 
@@ -27,7 +27,7 @@ ul {
   margin: 0;
   overflow: hidden;
   color: #919191;
-  background-color: #141414;
+  background-color: #131314;
 }
 
 li {
@@ -76,13 +76,7 @@ h1 {
 
 .title1 {
   color: #0088ff;
-  font-weight: 300;
   margin-bottom: 4%;
-}
-
-.title2 {
-  color: #0088ff;
-  font-weight: 500;
 }
 
 h3 {
@@ -137,8 +131,7 @@ svg {
 .websites > h2 {
   font-family: Roboto, sans-serif;
   font-size: 3rem;
-  font-weight: 300;
-  color: #ffffff;
+  color: #cccccc;
 }
 
 .languageList {
@@ -147,7 +140,7 @@ svg {
 }
 
 .highlighted {
-  color: #0088ff;
+  color: #11c6f8;
 }
 
 .projectsGrid {
@@ -158,16 +151,16 @@ svg {
   row-gap: 30px;
 }
 
-.projectsGrid > div {
-  background-color: #1b1b1b;
-  padding: 20px;
-  border-radius: 20px;
-  border: 2px solid #4b4a4a;
-  transition: background-color 1s;
+.link {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-.projectsGrid > div:hover {
-  background-color: #2e2e2e;
+.projectsGrid > div {
+  background-color: #17171a;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #3f3f49;
 }
 
 h4 {
@@ -178,6 +171,16 @@ h4 {
   color: #ffffff;
 }
 
+.deviceTag {
+  margin: 0 0.4rem 0 0;
+  display: inline-block;
+  background-color: #0088ff44;
+  color: #d6e3ee;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3rem;
+}
+
 p a {
   text-decoration: none;
   font-weight: bold;
@@ -185,6 +188,24 @@ p a {
 }
 
 p a:hover {
+  text-decoration: underline;
+}
+
+button {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffffff00;
+  color: #cccccc;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0088ff;
+  border-style: none;
+  padding: 0.75rem 0;
+}
+
+button:hover {
   text-decoration: underline;
 }
 

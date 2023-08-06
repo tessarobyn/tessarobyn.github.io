@@ -1,0 +1,62 @@
+.projectPage {
+  padding: 5% 10%;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.projectContent {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.extraInfo {
+  margin-bottom: 3rem;
+}
+
+.projectContent > div {
+  flex: 1;
+}
+
+.imageCarousel {
+  margin-top: 2rem;
+}
+
+.imageCarousel > img {
+  width: 100%;
+  height: auto;
+}
+
+.dotsContainer {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  background-color: #3f3f49;
+  border-radius: 0.5rem;
+}
+
+.dot.active {
+  background-color: #0088ff;
+}
+
+img {
+  width: 100%;
+}
