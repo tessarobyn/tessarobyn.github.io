@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home.jsx";
 import ProjectPage from "./components/ProjectPage.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 const projects = {
   colorPicker: {
@@ -96,6 +97,7 @@ const App = () => {
   });
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home projects={projects} />}></Route>
         <>{projectRoutes}</>
