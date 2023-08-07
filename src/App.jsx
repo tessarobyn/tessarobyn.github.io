@@ -1,7 +1,27 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home.jsx";
 import ProjectPage from "./components/ProjectPage.jsx";
 import Navbar from "./components/Navbar.jsx";
+
+import colorPickerHome from "./img/projectImages/colorPickerHome.png";
+import colorPickerFeatures from "./img/projectImages/colorPickerFeatures.png";
+import colorPickerSetup from "./img/projectImages/colorPickerSetup.png";
+import colorPickerHelp from "./img/projectImages/colorPickerHelp.png";
+
+import lastLeftHome from "./img/projectImages/lastLeftHome.png";
+import lastLeftGameplay from "./img/projectImages/lastLeftGameplay.png";
+import lastLeftGameOver from "./img/projectImages/lastLeftGameOver.png";
+import lastLeftRules from "./img/projectImages/lastLeftRules.png";
+
+import iceCreamCatch from "./img/projectImages/iceCreamCatch.png";
+import iceCreamCatchGameplay from "./img/projectImages/iceCreamCatchGameplay.png";
+import iceCreamCatchGameOver from "./img/projectImages/iceCreamCatchGameOver.png";
+import iceCreamCatchRules from "./img/projectImages/iceCreamCatchRules.png";
+
+import liftOff from "./img/projectImages/liftOff.png";
+import liftOffGameplay from "./img/projectImages/liftOffGameplay.png";
+import liftOffGameOver from "./img/projectImages/liftOffGameOver.png";
+import liftOffRules from "./img/projectImages/liftOffRules.png";
 
 const projects = {
   colorPicker: {
@@ -14,10 +34,10 @@ const projects = {
     github: "https://github.com/tessarobyn/color-picker",
     website: "https://tessarobyn.github.io/color-picker/",
     images: [
-      "colorPickerHome.png",
-      "colorPickerFeatures.png",
-      "colorPickerSetup.png",
-      "colorPickerHelp.png",
+      colorPickerHome,
+      colorPickerFeatures,
+      colorPickerSetup,
+      colorPickerHelp,
     ],
     aim: "I wanted to build something that would allow me to play with HTML5 canvas and further my knowledge of JavaScript. Previously, I had only built games; I wanted to build something that was more useful and that I might be able to reuse in future projects.",
     successes:
@@ -52,10 +72,10 @@ const projects = {
     github: "https://github.com/tessarobyn/last-left-game",
     website: "https://tessarobyn.github.io/last-left-game/",
     images: [
-      "lastLeftHome.png",
-      "lastLeftGameplay.png",
-      "lastLeftGameOver.png",
-      "lastLeftRules.png",
+      lastLeftHome,
+      lastLeftGameplay,
+      lastLeftGameOver,
+      lastLeftRules,
     ],
     aim: "'Last Left' was the first website I built that used a substantial amount of JavaScript to control it. I decided to build this game specifically as I had already worked out the game logic and finer details when I built it in Python, meaning I could focus on learning how JavaScript works and how to apply it to a relatively simple game. Also, I found that implementing a game made it easier to learn how to use classes and objects in JavaScript, as there were classes such as 'Player' and 'Enemy'. The objects created from these were tangible and represented on the screen.",
     successes:
@@ -73,10 +93,10 @@ const projects = {
     github: "https://github.com/tessarobyn/ice-cream-catch",
     website: "https://tessarobyn.github.io/ice-cream-catch/",
     images: [
-      "iceCreamCatch.png",
-      "iceCreamCatchGameplay.png",
-      "iceCreamCatchGameOver.png",
-      "iceCreamCatchRules.png",
+      iceCreamCatch,
+      iceCreamCatchGameplay,
+      iceCreamCatchGameOver,
+      iceCreamCatchRules,
     ],
     aim: "After using HTML5 canvas for the color picker, I decided to do another project using it. This is a lot more simple project, but I decided I wanted to learn how to make a web app suitable for all devices, including touchscreens. This was something I hadn't tried to acomplish yet, and therefore was the main aim of this project.",
     successes:
@@ -94,10 +114,10 @@ const projects = {
     github: "https://github.com/tessarobyn/lift-off",
     website: "https://tessarobyn.github.io/lift-off/",
     images: [
-      "liftOff.png",
-      "liftOffGameplay.png",
-      "liftOffGameOver.png",
-      "liftOffRules.png",
+      liftOff,
+      liftOffGameplay,
+      liftOffGameOver,
+      liftOffRules,
     ],
     aim: "After building some games using JavaScript, I decided to have a go at Unity, which also involved programming in C#. I wanted to figure out how to use Unity and also learn a bit of C#.",
     successes:

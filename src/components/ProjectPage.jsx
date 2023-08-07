@@ -33,6 +33,7 @@ const ProjectPage = ({ project }) => {
               </a>
             </p>
           </div>
+          <Carousel images={project.images}/>
         </div>
       </div>
 

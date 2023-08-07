@@ -17,7 +17,7 @@ const Carousel = ({ images }) => {
     <div className="imageCarousel">
       <img
         key={currentIndex}
-        src={`../img/projectImages/${images[currentIndex]}`}
+        src={images[currentIndex]}
         onClick={moveToNext}
       />
       <div className="dotsContainer">
