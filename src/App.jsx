@@ -8,6 +8,10 @@ import colorPickerFeatures from "./img/projectImages/colorPickerFeatures.png";
 import colorPickerSetup from "./img/projectImages/colorPickerSetup.png";
 import colorPickerHelp from "./img/projectImages/colorPickerHelp.png";
 
+import artPortfolioHome from "./img/projectImages/artPortfolioHome.png";
+import artPortfolio from "./img/projectImages/artPortfolio.png";
+import artPortfolioAnimalPortraits from "./img/projectImages/artPortfolioAnimalPortraits.png";
+
 import lastLeftHome from "./img/projectImages/lastLeftHome.png";
 import lastLeftGameplay from "./img/projectImages/lastLeftGameplay.png";
 import lastLeftGameOver from "./img/projectImages/lastLeftGameOver.png";
@@ -54,12 +58,16 @@ const projects = {
     optimisedForMobile: true,
     github: "https://github.com/tessarobyn/art-portfolio",
     website: "https://tessarobyn.github.io/art-portfolio/",
-    images: [],
+    images: [
+      artPortfolioHome,
+      artPortfolio,
+      artPortfolioAnimalPortraits,
+    ],
     aim: "I wanted to build a web app that would serve some use to me in the future and I wanted to build something that interested me. It was also an opportunity to have a go at integrating a lot of SVG into a website, which proved to be quite challenging from a design perspective.",
     successes:
       "I am really happy with the outcome of this website and I think I was a good idea to add the ability to hover over the images to see more information.",
     possibleImprovements:
-      "Although the design of the website turned out well, if I were to do this again, I would progam it completely differently and convert it into React, as I think it would be a good fit for this project and would make the code more reusable and accessable should I want to add more content.",
+      "Although the design of the website turned out well, if I were to do this again, I would program it completely differently and convert it into React, as I think it would be a good fit for this project and would make the code more reusable. This would make it easier to update the website if I wanted to add more content.",
   },
 
   lastLeft: {
@@ -81,7 +89,7 @@ const projects = {
     successes:
       "As this was my first attempt with JavaScript, I was very happy with the outcome. I felt a lot more confident using JavaScript and could appreciate how much of a difference it makes to websites. One of the most difficult parts of building this game was to create an algorithm that would randomly generate walls for each game, but I think it turned out well.",
     possibleImprovements:
-      "As this game requires access to a keyboard, it cannot be played on a touchscreen device without an external keyboard. When I styled the game, I made sure it was responsive to all screen sizes, but I would need to add touchscreen support so it can be used on all devices. It may also be worth adding some kind of leaderboard, which would require a backend being added to the web app. My Python version of this game used SQL to read from, write to and update a leaderboard database, so I could create something similar for this.",
+      "As this game requires access to a keyboard, it cannot be played on a touchscreen device without an external keyboard. When I styled the game, I made sure it was responsive to all screen sizes, but I would need to add touchscreen support so it can be used on all devices. It may also be worth adding some kind of leader board, which would require a backend being added to the web app. My Python version of this game used SQL to read from, write to and update a leader board database, so I could create something similar for this.",
   },
   iceCreamCatch: {
     id: "iceCreamCatch",
@@ -98,11 +106,11 @@ const projects = {
       iceCreamCatchGameOver,
       iceCreamCatchRules,
     ],
-    aim: "After using HTML5 canvas for the color picker, I decided to do another project using it. This is a lot more simple project, but I decided I wanted to learn how to make a web app suitable for all devices, including touchscreens. This was something I hadn't tried to acomplish yet, and therefore was the main aim of this project.",
+    aim: "After using HTML5 canvas for the color picker, I decided to do another project using it. This is a lot more simple project, but I decided I wanted to learn how to make a web app suitable for all devices, including touchscreens. This was something I hadn't tried to accomplish yet, and therefore was the main aim of this project.",
     successes:
-      "Although relatively simple, I think this game was increadibly effective and works really well on all devices. I also used localStorage to keep a high score on the device the game was played on.",
+      "Although relatively simple, I think this game was incredibly effective and works really well on all devices. I also used localStorage to keep a high score on the device the game was played on.",
     possibleImprovements:
-      "I think I could improve the UI as it is fairly rudimentary. Also, localStorage isn't the best way to retain data, so I could consider creating a database to store information in the future. This would also create the opportunity of a leaderboard, where players could compete against each other, even if they are not playing on the same device.",
+      "I think I could improve the UI as it is fairly rudimentary. Also, localStorage isn't the best way to retain data, so I could consider creating a database to store information in the future. This would also create the opportunity of a leader board, where players could compete against each other, even if they are not playing on the same device.",
   },
   liftOff: {
     id: "liftOff",
