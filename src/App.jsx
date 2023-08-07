@@ -25,20 +25,22 @@ const projects = {
     possibleImprovements:
       "Currently, the color picker only works on devices with a mouse and keyboard. In the future, I would like to update it so it can be used on all devices. I will also need to update the website so it is responsive and can be viewed on devices with smaller screens, such as a mobile.",
   },
-  //   artPortfolio: {
-  //     id: "artPortfolio",
-  //     title: "Art Portfolio",
-  //     languages: "HTML, CSS, JavaScript",
-  //     description:
-  //       "I built this website so I would be able to add my artwork to it and use category pages to organise different pieces of art.",
-  //     optimisedForMobile: true,
-  //     github: "https://github.com/tessarobyn/art-portfolio",
-  //     website: "https://tessarobyn.github.io/art-portfolio/",
-  //     images: [],
-  //     aim: "",
-  //     successes: "",
-  //     possibleImprovements: "",
-  //   },
+  artPortfolio: {
+    id: "artPortfolio",
+    title: "Art Portfolio",
+    languages: "HTML, CSS, JavaScript",
+    description:
+      "I built this website so I would be able to add my artwork to it and use category pages to organise different pieces of art.",
+    optimisedForMobile: true,
+    github: "https://github.com/tessarobyn/art-portfolio",
+    website: "https://tessarobyn.github.io/art-portfolio/",
+    images: [],
+    aim: "I wanted to build a web app that would serve some use to me in the future and I wanted to build something that interested me. It was also an opportunity to have a go at integrating a lot of SVG into a website, which proved to be quite challenging from a design perspective.",
+    successes:
+      "I am really happy with the outcome of this website and I think I was a good idea to add the ability to hover over the images to see more information.",
+    possibleImprovements:
+      "Although the design of the website turned out well, if I were to do this again, I would progam it completely differently and convert it into React, as I think it would be a good fit for this project and would make the code more reusable and accessable should I want to add more content.",
+  },
 
   lastLeft: {
     id: "lastLeft",
