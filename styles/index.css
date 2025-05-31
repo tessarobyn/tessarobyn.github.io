@@ -11,7 +11,7 @@ body {
 h1 {
   font-family: "Calistoga", serif;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #1e1e1e;
 }
 
@@ -49,9 +49,12 @@ h4 {
   text-align: center;
 }
 
-.section2,
-.section3 {
+.section2 {
   padding: 5%;
+}
+
+.section3 {
+  padding: 0 5% 5% 5%;
 }
 
 .projectCardsContainer,
@@ -95,6 +98,38 @@ h4 {
 }
 
 p {
-  font-size: 1rem;
   color: #eef3f4;
+}
+
+.footerGradientDivider {
+  height: 0.5rem;
+  background: url(../assets/gradientVariation2.JPG) no-repeat;
+  background-size: cover;
+}
+
+.footerContent {
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(
+    to top,
+    rgba(22, 44, 64, 0),
+    rgba(22, 44, 64, 1)
+  );
+}
+
+.footerContent > h2 {
+  flex: 1;
+  margin: 0;
+}
+
+button {
+  background-color: #06f2fe;
+  color: #1e1e1e;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
 }
