@@ -14,12 +14,19 @@
     />
   </head>
   <body>
-    <div class="section1">
+    <div id="landingImgContainer" class="landingImgContainer">
+      <div id="nestedImgContainer">
+        <img id="landingImg" src="assets/landingBackground.JPG" />
+      </div>
+    </div>
+
+    <div class="section1" id="section1">
       <div class="headingContainer">
         <h1>Hi, I'm Tessa</h1>
         <h3>Front-end Designer and Developer</h3>
       </div>
     </div>
+
     <div class="mainContentContainer">
       <div class="section2">
         <h2>Project Spotlight</h2>
@@ -63,9 +70,12 @@
         <div class="footerGradientDivider"></div>
         <div class="footerContent">
           <h2>Want to take a look at my portfolio?</h2>
-          <button>Check it out here</button>
+          <button id="portfolioButton">Check it out here</button>
         </div>
       </div>
     </div>
   </body>
+  <footer>
+    <script src="scripts/visualEffectsScript.js"></script>
+  </footer>
 </html>
