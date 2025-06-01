@@ -6,7 +6,24 @@ let currentMouseX = 0;
 let currentMouseY = 0;
 
 const moveAmount = 0.4;
+const maxMovementAllowance = 10;
+
 img.style.objectPosition = x + "px " + y + "px";
+
+const checkBackgroundRatio = () => {
+  const container = document.getElementById("landingImgContainer");
+  if (container.offsetWidth >= container.offsetHeight) {
+    console.log("changingWidth");
+    img.style.height = "auto";
+    img.style.width = "100%";
+  } else {
+    console.log("changingHeight");
+    img.style.width = "auto";
+    img.style.height = "100%";
+  }
+};
+
+checkBackgroundRatio();
 
 const moveBackground = (newMouseX, newMouseY) => {
   const container = document.getElementById("landingImgContainer");
@@ -19,18 +36,21 @@ const moveBackground = (newMouseX, newMouseY) => {
   const hiddenAreaY = nestHeight - containerHeight;
 
   const smallerArea = hiddenAreaX > hiddenAreaY ? hiddenAreaY : hiddenAreaX;
-  console.log(smallerArea);
 
+  const movementAllowance =
+    maxMovementAllowance > smallerArea ? smallerArea : maxMovementAllowance;
+
+  console.log(movementAllowance);
   if (currentMouseX > newMouseX) {
-    x = x >= -smallerArea ? x - moveAmount : x;
+    x = x >= -movementAllowance ? x - moveAmount : x;
   } else {
-    x = x <= smallerArea ? x + moveAmount : x;
+    x = x <= movementAllowance ? x + moveAmount : x;
   }
 
   if (currentMouseY > newMouseY) {
-    y = y >= -smallerArea ? y - moveAmount : y;
+    y = y >= -movementAllowance ? y - moveAmount : y;
   } else {
-    y = y <= smallerArea ? y + moveAmount : y;
+    y = y <= movementAllowance ? y + moveAmount : y;
   }
 
   img.style.objectPosition = x + "px " + y + "px";
@@ -47,6 +67,11 @@ const moveBackground = (newMouseX, newMouseY) => {
 
 document.body.addEventListener("mousemove", (e) => {
   moveBackground(e.clientX, e.clientY);
+});
+
+window.addEventListener("resize", (e) => {
+  console.log("here");
+  checkBackgroundRatio();
 });
 
 // const height = container.clientHeight;
