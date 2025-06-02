@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Last Left</title>
+
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/supportingPages.css" />
+    <link rel="stylesheet" href="../styles/responsiveStyle.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li class="home"><a class="homeText" href="../index.html">Tessa</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../index.html#skillsAnchor">Skills</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+    <div id="landingImgContainer" class="landingImgContainer">
+      <div id="nestedImgContainer">
+        <img id="landingImg" src="../assets/landingBackground.JPG" />
+      </div>
+    </div>
+
+    <div class="section1" id="section1">
+      <div class="headingContainer">
+        <h1>Last Left</h1>
+        <h3>Desktop</h3>
+      </div>
+    </div>
+
+    <div class="mainContentContainer">
+      <div class="section2">
+        <div class="summaryContainer">
+          <p>
+            <i>
+              'Last Left' is a web-based game. It is an improved remake of the
+              first game I built in Python.</i
+            >
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/last-left-game"
+              >view repo on GitHub ►</a
+            >
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/last-left-game/"
+              >visit website ►</a
+            >
+          </p>
+        </div>
+        <div class="projectInfoContainer">
+          <h4>Skills and Technologies Used</h4>
+          <p>HTML, CSS & JavaScript</p>
+          <h4>Aims</h4>
+          <p>
+            'Last Left' was the first website I built that used a substantial
+            amount of JavaScript to control it. I decided to build this game
+            specifically as I had already worked out the game logic and finer
+            details when I built it in Python, meaning I could focus on learning
+            how JavaScript works and how to apply it to a relatively simple
+            game. Also, I found that implementing a game made it easier to learn
+            how to use classes and objects in JavaScript, as there were classes
+            such as 'Player' and 'Enemy'. The objects created from these were
+            tangible and represented on the screen.
+          </p>
+          <h4>Successes</h4>
+          <p>
+            As this was my first attempt with JavaScript, I was very happy with
+            the outcome. I felt a lot more confident using JavaScript and could
+            appreciate how much of a difference it makes to websites. One of the
+            most difficult parts of building this game was to create an
+            algorithm that would randomly generate walls for each game, but I
+            think it turned out well.
+          </p>
+          <h4>What Improvements Could I Make?</h4>
+          <p>
+            As this game requires access to a keyboard, it cannot be played on a
+            touchscreen device without an external keyboard. When I styled the
+            game, I made sure it was responsive to all screen sizes, but I would
+            need to add touchscreen support so it can be used on all devices. It
+            may also be worth adding some kind of leader board, which would
+            require a backend being added to the web app. My Python version of
+            this game used SQL to read from, write to and update a leader board
+            database, so I could create something similar for this.
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footerGradientDivider"></div>
+        <div class="footerContent">
+          <h4>Need to check my skills are a fit?</h4>
+          <button
+            onclick="location.href='../index.html#skillsAnchor'"
+            type="button"
+          >
+            Check here
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="../scripts/visualEffectsScript.js"></script>
+  </footer>
+</html>

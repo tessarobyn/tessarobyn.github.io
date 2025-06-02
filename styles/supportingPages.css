@@ -2,3 +2,18 @@ html,
 body {
   height: 75%;
 }
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #06f2fe;
+}
+
+.summaryContainer {
+  margin: 5% 5% 10% 5%;
+  text-align: center;
+}
+
+.projectInfoContainer > h4 {
+  margin-top: 3rem;
+}
