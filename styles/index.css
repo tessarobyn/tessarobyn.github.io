@@ -3,7 +3,7 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 18px;
   /* background-color: #1e1e1e; */
   font-family: "Poppins", sans-serif;
 }
@@ -18,7 +18,7 @@ h1 {
 h2 {
   font-family: "Calistoga", serif;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   color: #cffcff;
 }
 
@@ -28,9 +28,9 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #eef3f4;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #cffcff;
   margin: 0;
 }
 
@@ -87,25 +87,41 @@ img {
 
 .projectCardsContainer,
 .skillsContainer {
-  display: flex;
-  flex-direction: row;
-  column-gap: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.projectCardsContainer {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skillsContainer {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .projectCard {
-  flex: 1;
   border-radius: 1rem;
   overflow: hidden;
 }
 
 .cardContent {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1rem;
   height: 12rem;
   text-align: center;
   background-color: #162c40;
+  transition: ease-in-out 0.25s;
+}
+
+.cardContent:hover {
+  background-color: #1d3f5e;
+}
+
+.cardContent > p {
+  margin-bottom: 0;
 }
 
 .cardAccent {
@@ -126,12 +142,13 @@ img {
 }
 
 p {
+  font-weight: 200;
   color: #eef3f4;
 }
 
 .footerGradientDivider {
-  height: 0.5rem;
-  background: url(../assets/gradientVariation2.JPG) no-repeat;
+  height: 1rem;
+  background: url(../assets/landingBackground.JPG) no-repeat;
   background-size: cover;
 }
 
@@ -156,8 +173,13 @@ button {
   color: #1e1e1e;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   border: none;
   border-radius: 0.5rem;
   padding: 0 1rem;
+  transition: ease-in-out 0.25s;
+}
+
+button:hover {
+  background-color: #cffcff;
 }
