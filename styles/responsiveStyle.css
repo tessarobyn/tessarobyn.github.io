@@ -1,0 +1,20 @@
+@media screen and (max-width: 1000px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projectCardsContainer,
+  .skillsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}

@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 2;
   width: 100%;
@@ -9,7 +9,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0 1rem;
-  /* background-color: #000324; */
   overflow: hidden;
 }
 

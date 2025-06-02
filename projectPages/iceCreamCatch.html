@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream Catch</title>
+
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/supportingPages.css" />
+    <link rel="stylesheet" href="../styles/responsiveStyle.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li class="home"><a class="homeText" href="../index.html">Tessa</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../index.html#skillsAnchor">Skills</a></li>
+        <li><a href="../portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+    <div id="landingImgContainer" class="landingImgContainer">
+      <div id="nestedImgContainer">
+        <img id="landingImg" src="../assets/landingBackground.JPG" />
+      </div>
+    </div>
+
+    <div class="section1" id="section1">
+      <div class="headingContainer">
+        <h1>Ice Cream Catch</h1>
+        <h3>Desktop • Mobile</h3>
+      </div>
+    </div>
+
+    <div class="mainContentContainer">
+      <div class="section2">
+        <div class="summaryContainer">
+          <p>
+            <i>
+              'Ice Cream Catch' is a simple web-based game, which can be used on
+              devices with or without a touchscreen. It allowed me to experiment
+              with HTML5 canvas.</i
+            >
+          </p>
+          <p>
+            <a href="https://github.com/tessarobyn/ice-cream-catch"
+              >view repo on GitHub ►</a
+            >
+          </p>
+          <p>
+            <a href="https://tessarobyn.github.io/ice-cream-catch/"
+              >visit website ►</a
+            >
+          </p>
+        </div>
+        <div class="projectInfoContainer">
+          <h4>Skills and Technologies Used</h4>
+          <p>HTML, CSS & JavaScript</p>
+          <p>HTML5 Canvas</p>
+          <h4>Aims</h4>
+          <p>
+            After using HTML5 canvas for the color picker, I decided to do
+            another project using it. This is a lot more simple project, but I
+            decided I wanted to learn how to make a web app suitable for all
+            devices, including touchscreens. This was something I hadn't tried
+            to accomplish yet, and therefore was the main aim of this project.
+          </p>
+          <h4>Successes</h4>
+          <p>
+            Although relatively simple, I think this game was incredibly
+            effective and works really well on all devices. I also used
+            localStorage to keep a high score on the device the game was played
+            on.
+          </p>
+          <h4>What Improvements Could I Make?</h4>
+          <p>
+            I think I could improve the UI as it is fairly rudimentary. Also,
+            localStorage isn't the best way to retain data, so I could consider
+            creating a database to store information in the future. This would
+            also create the opportunity of a leader board, where players could
+            compete against each other, even if they are not playing on the same
+            device.
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footerGradientDivider"></div>
+        <div class="footerContent">
+          <h4>Need to check my skills are a fit?</h4>
+          <button
+            onclick="location.href='../index.html#skillsAnchor'"
+            type="button"
+          >
+            Check here
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="../scripts/visualEffectsScript.js"></script>
+  </footer>
+</html>
